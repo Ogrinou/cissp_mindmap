@@ -1,0 +1,83 @@
+<map version="0.9.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="Cryptography" ID="ID_1479222398" CREATED="1318854572060" MODIFIED="1318854583340">
+<hook NAME="MapStyle" max_node_width="600"/>
+<node TEXT="Generalities" POSITION="right" ID="ID_1523059734" CREATED="1318854584262" MODIFIED="1318854621087">
+<node TEXT="symmetric" ID="ID_50189958" CREATED="1318854595355" MODIFIED="1318854599917">
+<node TEXT="Plus" ID="ID_1872880156" CREATED="1318854678581" MODIFIED="1318854681300">
+<node TEXT="faster" ID="ID_568850877" CREATED="1318854628930" MODIFIED="1318854667645" COLOR="#66cc00">
+<font BOLD="true"/>
+</node>
+<node TEXT="hard if big key size" ID="ID_1259203435" CREATED="1318854633961" MODIFIED="1318854667661" COLOR="#66cc00">
+<font BOLD="true"/>
+</node>
+</node>
+<node TEXT="Minus" ID="ID_261494897" CREATED="1318854687315" MODIFIED="1318854689705">
+<node TEXT="key exchange" ID="ID_415070642" CREATED="1318854691252" MODIFIED="1318855005232" COLOR="#ff0000" STYLE="as_parent">
+<font NAME="SansSerif" SIZE="12" BOLD="true" ITALIC="false"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="unique key for each transmission" ID="ID_871257860" CREATED="1318854698767" MODIFIED="1318855010576" COLOR="#ff0000" STYLE="as_parent">
+<font NAME="SansSerif" SIZE="12" BOLD="true" ITALIC="false"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node ID="ID_1047739689" CREATED="1318854712844" MODIFIED="1318855172350" COLOR="#ff0000" STYLE="as_parent">
+<richcontent TYPE="NODE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      confidentiality but without <strike><b>non-repudiation</b></strike>&#160;and&#160;<strike><b>authenticity</b></strike>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12" BOLD="true" ITALIC="false"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node TEXT="Examples" ID="ID_164087344" CREATED="1318855202193" MODIFIED="1318855204521">
+<node TEXT="DES" ID="ID_1141267326" CREATED="1318855205302" MODIFIED="1318855206896"/>
+<node TEXT="3DES" ID="ID_950292551" CREATED="1318855207630" MODIFIED="1318855209755"/>
+<node TEXT="BlowFish" ID="ID_1589396480" CREATED="1318855210146" MODIFIED="1318855213161"/>
+<node TEXT="IDEA" ID="ID_166952694" CREATED="1318855213536" MODIFIED="1318855218130"/>
+<node TEXT="RC4/ RC5 /RC6" ID="ID_1785932006" CREATED="1318855218505" MODIFIED="1318855223583"/>
+<node TEXT="AES" ID="ID_725268889" CREATED="1318855223942" MODIFIED="1318855228473"/>
+</node>
+</node>
+<node TEXT="asymmetric" ID="ID_1116804876" CREATED="1318854603401" MODIFIED="1318855927245">
+<node TEXT="Plus" ID="ID_1441926007" CREATED="1318854678581" MODIFIED="1318854681300">
+<node TEXT="better key distribution" ID="ID_567586319" CREATED="1318854628930" MODIFIED="1318855595928" COLOR="#66cc00">
+<font BOLD="true"/>
+</node>
+<node TEXT="better scalability" ID="ID_984127125" CREATED="1318854633961" MODIFIED="1318855614318" COLOR="#66cc00">
+<font BOLD="true"/>
+</node>
+<node TEXT="can provide authentication and non-repudiation" ID="ID_147650516" CREATED="1318854633961" MODIFIED="1318855685956" COLOR="#66cc00" HGAP="27" VSHIFT="-7">
+<font BOLD="true"/>
+</node>
+</node>
+<node TEXT="Minus" ID="ID_1174003146" CREATED="1318854687315" MODIFIED="1318854689705">
+<node TEXT="slow" ID="ID_1889520051" CREATED="1318854691252" MODIFIED="1318855720939" COLOR="#ff0000" STYLE="as_parent">
+<font NAME="SansSerif" SIZE="12" BOLD="true" ITALIC="false"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="mathematically intensive tasks" ID="ID_73598924" CREATED="1318854698767" MODIFIED="1318855739345" COLOR="#ff0000" STYLE="as_parent">
+<font NAME="SansSerif" SIZE="12" BOLD="true" ITALIC="false"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node TEXT="Examples" ID="ID_812461394" CREATED="1318855750735" MODIFIED="1318855752813">
+<node TEXT="RSA" ID="ID_799399750" CREATED="1318855753703" MODIFIED="1318855755532"/>
+<node TEXT="ECC" ID="ID_1625372778" CREATED="1318855755813" MODIFIED="1318855763984"/>
+<node TEXT="Diffie-Hellman" ID="ID_1162920035" CREATED="1318855777937" MODIFIED="1318855805014"/>
+<node TEXT="El Gamal" ID="ID_28801100" CREATED="1318855788343" MODIFIED="1318855790827"/>
+<node TEXT="DSA" ID="ID_1105853903" CREATED="1318855791124" MODIFIED="1318855801733"/>
+<node TEXT="Merkel-Hellman Knapsack" ID="ID_1819723491" CREATED="1318855806108" MODIFIED="1318855838341"/>
+</node>
+</node>
+</node>
+</node>
+</map>
