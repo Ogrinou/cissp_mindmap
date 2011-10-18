@@ -1,27 +1,35 @@
 <map version="0.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Cryptography" ID="ID_1479222398" CREATED="1318854572060" MODIFIED="1318854583340">
-<hook NAME="MapStyle" zoom="1.77" max_node_width="600"/>
-<node TEXT="Type" POSITION="right" ID="ID_1523059734" CREATED="1318854584262" MODIFIED="1318856119551">
-<node TEXT="symmetric" ID="ID_50189958" CREATED="1318854595355" MODIFIED="1318854599917">
-<node TEXT="Plus" ID="ID_1872880156" CREATED="1318854678581" MODIFIED="1318854681300">
-<node TEXT="faster" ID="ID_568850877" CREATED="1318854628930" MODIFIED="1318854667645" COLOR="#66cc00">
-<font BOLD="true"/>
+<node TEXT="Cryptography" ID="ID_1479222398" CREATED="1318854572060" MODIFIED="1318944694650" COLOR="#000000">
+<hook NAME="MapStyle" zoom="1.209" max_node_width="600"/>
+<hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<font SIZE="20"/>
+<node TEXT="Type" POSITION="right" ID="ID_1523059734" CREATED="1318854584262" MODIFIED="1318944713095" HGAP="75" VSHIFT="291" COLOR="#0033ff">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<node TEXT="symmetric" ID="ID_50189958" CREATED="1318854595355" MODIFIED="1318944694681" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="Plus" ID="ID_1872880156" CREATED="1318854678581" MODIFIED="1318944694681" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="faster" ID="ID_568850877" CREATED="1318854628930" MODIFIED="1318944694681" COLOR="#111111">
+<font SIZE="12" BOLD="true"/>
 </node>
-<node TEXT="hard if big key size" ID="ID_1259203435" CREATED="1318854633961" MODIFIED="1318854667661" COLOR="#66cc00">
-<font BOLD="true"/>
+<node TEXT="hard if big key size" ID="ID_1259203435" CREATED="1318854633961" MODIFIED="1318944694681" COLOR="#111111">
+<font SIZE="12" BOLD="true"/>
 </node>
 </node>
-<node TEXT="Minus" ID="ID_261494897" CREATED="1318854687315" MODIFIED="1318854689705">
-<node TEXT="key exchange" ID="ID_415070642" CREATED="1318854691252" MODIFIED="1318855005232" COLOR="#ff0000" STYLE="as_parent">
+<node TEXT="Minus" ID="ID_261494897" CREATED="1318854687315" MODIFIED="1318944694681" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="key exchange" ID="ID_415070642" CREATED="1318854691252" MODIFIED="1318944694681" COLOR="#111111" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="12" BOLD="true" ITALIC="false"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node TEXT="unique key for each transmission" ID="ID_871257860" CREATED="1318854698767" MODIFIED="1318855010576" COLOR="#ff0000" STYLE="as_parent">
+<node TEXT="unique key for each transmission" ID="ID_871257860" CREATED="1318854698767" MODIFIED="1318944694681" COLOR="#111111" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="12" BOLD="true" ITALIC="false"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node ID="ID_1047739689" CREATED="1318854712844" MODIFIED="1318855172350" COLOR="#ff0000" STYLE="as_parent">
+<node ID="ID_1047739689" CREATED="1318854712844" MODIFIED="1318944694681" COLOR="#111111" STYLE="as_parent">
 <richcontent TYPE="NODE">
 <html>
   <head>
@@ -32,15 +40,16 @@
       confidentiality but without <strike><b>non-repudiation</b></strike>&#160;and&#160;<strike><b>authenticity</b></strike>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12" BOLD="true" ITALIC="false"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node TEXT="Examples" ID="ID_164087344" CREATED="1318855202193" MODIFIED="1318855204521">
-<node TEXT="DES" ID="ID_1141267326" CREATED="1318855205302" MODIFIED="1318855206896">
-<node ID="ID_919497865" CREATED="1318861027359" MODIFIED="1318861064642">
+<node TEXT="Examples" ID="ID_164087344" CREATED="1318855202193" MODIFIED="1318944694681" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="DES" ID="ID_1141267326" CREATED="1318855205302" MODIFIED="1318944694681" COLOR="#111111">
+<font SIZE="12"/>
+<node ID="ID_919497865" CREATED="1318861027359" MODIFIED="1318944694697" COLOR="#111111">
 <richcontent TYPE="NODE">
 <html>
   <head>
@@ -51,676 +60,1145 @@
       56 bits + 8 of parity
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<font SIZE="12"/>
 </node>
 </node>
-<node TEXT="3DES" ID="ID_950292551" CREATED="1318855207630" MODIFIED="1318855209755"/>
-<node TEXT="BlowFish" ID="ID_1589396480" CREATED="1318855210146" MODIFIED="1318855213161"/>
-<node TEXT="IDEA" ID="ID_166952694" CREATED="1318855213536" MODIFIED="1318855218130"/>
-<node TEXT="RC4/ RC5 /RC6" ID="ID_1785932006" CREATED="1318855218505" MODIFIED="1318855223583"/>
-<node TEXT="AES" ID="ID_725268889" CREATED="1318855223942" MODIFIED="1318855228473"/>
+<node TEXT="3DES" ID="ID_950292551" CREATED="1318855207630" MODIFIED="1318944694697" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+<node TEXT="BlowFish" ID="ID_1589396480" CREATED="1318855210146" MODIFIED="1318944694697" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+<node TEXT="IDEA" ID="ID_166952694" CREATED="1318855213536" MODIFIED="1318944694697" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+<node TEXT="RC4/ RC5 /RC6" ID="ID_1785932006" CREATED="1318855218505" MODIFIED="1318944694697" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+<node TEXT="AES" ID="ID_725268889" CREATED="1318855223942" MODIFIED="1318944694697" COLOR="#111111">
+<font SIZE="12"/>
 </node>
 </node>
-<node TEXT="asymmetric" ID="ID_1116804876" CREATED="1318854603401" MODIFIED="1318855927245">
-<node TEXT="Plus" ID="ID_1441926007" CREATED="1318854678581" MODIFIED="1318854681300">
-<node TEXT="better key distribution" ID="ID_567586319" CREATED="1318854628930" MODIFIED="1318855595928" COLOR="#66cc00">
-<font BOLD="true"/>
 </node>
-<node TEXT="better scalability" ID="ID_984127125" CREATED="1318854633961" MODIFIED="1318855614318" COLOR="#66cc00">
-<font BOLD="true"/>
+<node TEXT="asymmetric" ID="ID_1116804876" CREATED="1318854603401" MODIFIED="1318944694697" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="Plus" ID="ID_1441926007" CREATED="1318854678581" MODIFIED="1318944694697" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="better key distribution" ID="ID_567586319" CREATED="1318854628930" MODIFIED="1318944694697" COLOR="#111111">
+<font SIZE="12" BOLD="true"/>
 </node>
-<node TEXT="can provide authentication and non-repudiation" ID="ID_147650516" CREATED="1318854633961" MODIFIED="1318855685956" COLOR="#66cc00" HGAP="27" VSHIFT="-7">
-<font BOLD="true"/>
+<node TEXT="better scalability" ID="ID_984127125" CREATED="1318854633961" MODIFIED="1318944694697" COLOR="#111111">
+<font SIZE="12" BOLD="true"/>
+</node>
+<node TEXT="can provide authentication and non-repudiation" ID="ID_147650516" CREATED="1318854633961" MODIFIED="1318944694697" COLOR="#111111" HGAP="27" VSHIFT="-7">
+<font SIZE="12" BOLD="true"/>
 </node>
 </node>
-<node TEXT="Minus" ID="ID_1174003146" CREATED="1318854687315" MODIFIED="1318854689705">
-<node TEXT="slow" ID="ID_1889520051" CREATED="1318854691252" MODIFIED="1318855720939" COLOR="#ff0000" STYLE="as_parent">
+<node TEXT="Minus" ID="ID_1174003146" CREATED="1318854687315" MODIFIED="1318944694697" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="slow" ID="ID_1889520051" CREATED="1318854691252" MODIFIED="1318944694697" COLOR="#111111" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="12" BOLD="true" ITALIC="false"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node TEXT="mathematically intensive tasks" ID="ID_73598924" CREATED="1318854698767" MODIFIED="1318855739345" COLOR="#ff0000" STYLE="as_parent">
+<node TEXT="mathematically intensive tasks" ID="ID_73598924" CREATED="1318854698767" MODIFIED="1318944694697" COLOR="#111111" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="12" BOLD="true" ITALIC="false"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node TEXT="Examples" ID="ID_812461394" CREATED="1318855750735" MODIFIED="1318855752813">
-<node TEXT="RSA" ID="ID_799399750" CREATED="1318855753703" MODIFIED="1318855755532"/>
-<node TEXT="ECC" ID="ID_1625372778" CREATED="1318855755813" MODIFIED="1318855763984"/>
-<node TEXT="Diffie-Hellman" ID="ID_1162920035" CREATED="1318855777937" MODIFIED="1318855805014"/>
-<node TEXT="El Gamal" ID="ID_28801100" CREATED="1318855788343" MODIFIED="1318855790827"/>
-<node TEXT="DSA" ID="ID_1105853903" CREATED="1318855791124" MODIFIED="1318855801733"/>
-<node TEXT="Merkel-Hellman Knapsack" ID="ID_1819723491" CREATED="1318855806108" MODIFIED="1318855838341"/>
+<node TEXT="Examples" ID="ID_812461394" CREATED="1318855750735" MODIFIED="1318944694697" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="RSA" ID="ID_799399750" CREATED="1318855753703" MODIFIED="1318944694697" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+<node TEXT="ECC" ID="ID_1625372778" CREATED="1318855755813" MODIFIED="1318944694697" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+<node TEXT="Diffie-Hellman" ID="ID_1162920035" CREATED="1318855777937" MODIFIED="1318944694713" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+<node TEXT="El Gamal" ID="ID_28801100" CREATED="1318855788343" MODIFIED="1318944694713" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+<node TEXT="DSA" ID="ID_1105853903" CREATED="1318855791124" MODIFIED="1318944694713" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+<node TEXT="Merkel-Hellman Knapsack" ID="ID_1819723491" CREATED="1318855806108" MODIFIED="1318944694713" COLOR="#111111">
+<font SIZE="12"/>
 </node>
 </node>
-<node TEXT="Hybrid" ID="ID_407834168" CREATED="1318858878773" MODIFIED="1318861020656" HGAP="16" VSHIFT="70">
-<node TEXT="Asymmetric + Symmetric" ID="ID_615361600" CREATED="1318858908226" MODIFIED="1318858921335">
-<node TEXT="symmetric key encodes the message" ID="ID_1975496650" CREATED="1318859061020" MODIFIED="1318859070958"/>
-<node TEXT="asymetric to encode the symmetric key" ID="ID_550031463" CREATED="1318859071473" MODIFIED="1318861005796"/>
+</node>
+<node TEXT="Hybrid" ID="ID_407834168" CREATED="1318858878773" MODIFIED="1318944694713" HGAP="38" VSHIFT="-1" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="Asymmetric + Symmetric" ID="ID_615361600" CREATED="1318858908226" MODIFIED="1318944694713" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="symmetric key encodes the message" ID="ID_1975496650" CREATED="1318859061020" MODIFIED="1318944694713" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+<node TEXT="asymetric to encode the symmetric key" ID="ID_550031463" CREATED="1318859071473" MODIFIED="1318944694713" COLOR="#111111">
+<font SIZE="12"/>
 </node>
 </node>
 </node>
-<node TEXT="Generalities" POSITION="left" ID="ID_1734900723" CREATED="1318856124238" MODIFIED="1318856130988">
-<node TEXT="Block Ciphers" ID="ID_1116274823" CREATED="1318856101552" MODIFIED="1318856145988" HGAP="14" VSHIFT="-31">
-<node TEXT="message divided into blocks of bits" ID="ID_1314702011" CREATED="1318856312361" MODIFIED="1318856336099"/>
-<node TEXT="ECB : Electronic Code Book" ID="ID_689656896" CREATED="1318862498790" MODIFIED="1318862595025"/>
-<node TEXT="CBC : Cipher Block Chaining" ID="ID_621666719" CREATED="1318862514118" MODIFIED="1318862587369">
-<node TEXT="verteur d&apos;initialisation + &#xa;bloc pr&#xe9;c&#xe9;dent chiffr&#xe9; devient vecteur" ID="ID_78130096" CREATED="1318863338254" MODIFIED="1318863369316"/>
 </node>
-<node TEXT="CFB : Cipher Feed Back" ID="ID_972915812" CREATED="1318862535525" MODIFIED="1318862548181">
-<node TEXT="le bloc pr&#xe9;c&#xe9;dent est chiffr&#xe9; pour devenir IV" ID="ID_332151081" CREATED="1318863372035" MODIFIED="1318863389067"/>
+<node TEXT="Generalities" POSITION="left" ID="ID_1734900723" CREATED="1318856124238" MODIFIED="1318944694713" COLOR="#0033ff">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<node TEXT="Block Ciphers" ID="ID_1116274823" CREATED="1318856101552" MODIFIED="1318944694728" HGAP="14" VSHIFT="-31" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="message divided into blocks of bits" ID="ID_1314702011" CREATED="1318856312361" MODIFIED="1318944694728" COLOR="#990000">
+<font SIZE="14"/>
 </node>
-<node TEXT="OFB : Output Feed Back" ID="ID_233619430" CREATED="1318862548697" MODIFIED="1318862559478">
-<node TEXT="l&apos;IV pr&#xe9;c&#xe9;dent est chiffr&#xe9; &#xa;pour devenir nouveau IV" ID="ID_220658901" CREATED="1318863532459" MODIFIED="1318863554350"/>
+<node TEXT="ECB : Electronic Code Book" ID="ID_689656896" CREATED="1318862498790" MODIFIED="1318944694728" COLOR="#990000">
+<font SIZE="14"/>
 </node>
-<node TEXT="CTR : CounTeR Mode" ID="ID_5890154" CREATED="1318862559806" MODIFIED="1318863568569"/>
+<node TEXT="CBC : Cipher Block Chaining" ID="ID_621666719" CREATED="1318862514118" MODIFIED="1318944694744" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="verteur d&apos;initialisation + &#xa;bloc pr&#xe9;c&#xe9;dent chiffr&#xe9; devient vecteur" ID="ID_78130096" CREATED="1318863338254" MODIFIED="1318944694744" COLOR="#111111">
+<font SIZE="12"/>
 </node>
-<node TEXT="Stream Ciphers" ID="ID_539814420" CREATED="1318856106536" MODIFIED="1318856149003" HGAP="13" VSHIFT="36">
-<node TEXT="action of each bits of the message" ID="ID_1078984932" CREATED="1318857013494" MODIFIED="1318857031385"/>
-<node TEXT="keystreams generator" ID="ID_815026597" CREATED="1318857477461" MODIFIED="1318857485164"/>
+</node>
+<node TEXT="CFB : Cipher Feed Back" ID="ID_972915812" CREATED="1318862535525" MODIFIED="1318944694744" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="le bloc pr&#xe9;c&#xe9;dent est chiffr&#xe9; pour devenir IV" ID="ID_332151081" CREATED="1318863372035" MODIFIED="1318944694744" COLOR="#111111">
+<font SIZE="12"/>
 </node>
 </node>
-<node TEXT="confusion &amp; diffusion" POSITION="left" ID="ID_221530839" CREATED="1318856739991" MODIFIED="1318856747647">
-<node TEXT="confusion made by subtitution" ID="ID_1636064722" CREATED="1318856749585" MODIFIED="1318856763616"/>
-<node TEXT="diffusion made by transposition" ID="ID_483494235" CREATED="1318856763866" MODIFIED="1318856775554"/>
+<node TEXT="OFB : Output Feed Back" ID="ID_233619430" CREATED="1318862548697" MODIFIED="1318944694744" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="l&apos;IV pr&#xe9;c&#xe9;dent est chiffr&#xe9; &#xa;pour devenir nouveau IV" ID="ID_220658901" CREATED="1318863532459" MODIFIED="1318944694744" COLOR="#111111">
+<font SIZE="12"/>
 </node>
-<node TEXT="session keys" POSITION="left" ID="ID_170340395" CREATED="1318860837118" MODIFIED="1318860840446"/>
-<node TEXT="Tableau Comparatif" POSITION="right" ID="ID_545397704" CREATED="1318862438101" MODIFIED="1318863192299">
-<node ID="ID_813721203" CREATED="1318861086689" MODIFIED="1318862444461" HGAP="346" VSHIFT="-22">
+</node>
+<node TEXT="CTR : CounTeR Mode" ID="ID_5890154" CREATED="1318862559806" MODIFIED="1318944694744" COLOR="#990000">
+<font SIZE="14"/>
+<node TEXT="IV incr&#xe9;ment&#xe9; &#xe0; chaque passage" ID="ID_1242616521" CREATED="1318940290870" MODIFIED="1318944694744" COLOR="#111111">
+<font SIZE="12"/>
+</node>
+</node>
+</node>
+<node TEXT="Stream Ciphers" ID="ID_539814420" CREATED="1318856106536" MODIFIED="1318944694760" HGAP="13" VSHIFT="36" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="action of each bits of the message" ID="ID_1078984932" CREATED="1318857013494" MODIFIED="1318944694760" COLOR="#990000">
+<font SIZE="14"/>
+</node>
+<node TEXT="keystreams generator" ID="ID_815026597" CREATED="1318857477461" MODIFIED="1318944694760" COLOR="#990000">
+<font SIZE="14"/>
+</node>
+</node>
+</node>
+<node TEXT="confusion &amp; diffusion" POSITION="left" ID="ID_221530839" CREATED="1318856739991" MODIFIED="1318944694760" COLOR="#0033ff">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<node TEXT="confusion made by subtitution" ID="ID_1636064722" CREATED="1318856749585" MODIFIED="1318944694760" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="diffusion made by transposition" ID="ID_483494235" CREATED="1318856763866" MODIFIED="1318944694760" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+</node>
+<node TEXT="session keys" POSITION="left" ID="ID_170340395" CREATED="1318860837118" MODIFIED="1318944694760" COLOR="#0033ff">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+</node>
+<node TEXT="Message Digests" POSITION="left" ID="ID_1377267476" CREATED="1318943196718" MODIFIED="1318944694760" COLOR="#0033ff">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<node TEXT="Hash (integrity)" ID="ID_789929683" CREATED="1318943629843" MODIFIED="1318944694760" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="HMAC : Hash Message Authentication Code (integrity and data origin auth)" ID="ID_1035184865" CREATED="1318943203492" MODIFIED="1318944694760" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="CBC-MAC (data origin auth, integrity)" ID="ID_1400698454" CREATED="1318943250049" MODIFIED="1318944694760" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="Evolution vers CMAC : cipher-based MAC" ID="ID_1114853199" CREATED="1318943507302" MODIFIED="1318944694760" COLOR="#990000">
+<font SIZE="14"/>
+</node>
+</node>
+</node>
+<node TEXT="Public Key Infrastructures (PKI)" POSITION="left" ID="ID_1724842694" CREATED="1318944497299" MODIFIED="1318944694775" COLOR="#0033ff">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<node TEXT="based on X509" ID="ID_1755037924" CREATED="1318944515008" MODIFIED="1318944694775" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="provides :&#xa;auth&#xa;confidentiality&#xa;non repudiation&#xa;integrity" ID="ID_1825941944" CREATED="1318944556402" MODIFIED="1318944694791" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="Certificate Authority (CA)" ID="ID_1766768752" CREATED="1318944673155" MODIFIED="1318944694791" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="CRL vs OCSP (Online Cerficate Status Protocol)" ID="ID_1889464353" CREATED="1318944774326" MODIFIED="1318944800546" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+</node>
+<node TEXT="Email Standards" POSITION="left" ID="ID_1102252681" CREATED="1318945595803" MODIFIED="1318945600230" COLOR="#0033ff">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<node TEXT="MIME and SecureMime" ID="ID_1658512977" CREATED="1318945601419" MODIFIED="1318945620646" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="PEM : Privacy-enhanced Mail" ID="ID_1859427212" CREATED="1318945605127" MODIFIED="1318945688980" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="Pretty Good Privacy (PGP)" ID="ID_1677765474" CREATED="1318945711961" MODIFIED="1318945728810" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+</node>
+<node TEXT="Tableau Comparatif" POSITION="right" ID="ID_545397704" CREATED="1318862438101" MODIFIED="1318944720494" COLOR="#0033ff" HGAP="37" VSHIFT="-561">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<node ID="ID_813721203" CREATED="1318861086689" MODIFIED="1318944694947" HGAP="346" VSHIFT="-22" COLOR="#00b439">
 <richcontent TYPE="NODE">
 <html>
   <head>
     
   </head>
   <body>
-    <table style="border-top-width: 0; border-bottom-width: 0; width: 80%; border-right-width: 0; border-left-width: 0; border-style: solid" border="0">
+    <table border="0" style="border-left-width: 0; border-bottom-width: 0; border-style: solid; width: 80%; border-right-width: 0; border-top-width: 0">
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Nom
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             But
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            Encryption
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            Digital Signature
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            Key Distribution
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Type
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Taille de bloc
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Nombre de passages
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Taille de la clef
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Remarque
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             DES
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             secret
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             block cipher symmetric
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             64 bits not variable
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             16
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             56+8
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Modes : ECB, CBC, and CFB
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             3DES
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             secret
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            block cipher symmetric
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            not variable
-          </p>
-        </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            48
-          </p>
-        </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            block cipher symmetric
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            not variable
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            48
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Modes : DES-EEE3, DES-EDE3, DES-EEE2, DES-EDE2
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             AES
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Secrecy
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             block cipher symmetric
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             128
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            10-14
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            10,12,14 (fonction taille de clef)
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             128,192,256
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            Rijndael
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             IDEA
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Secrecy
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             block cipher symmetric
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             64
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             8
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             128
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             (PGP)
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             RC5
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Secrecy
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             block cipher symmetric
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             32,64,128, variable
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             255
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
           0-2048
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             RC6
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Secrecy
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             block cipher symmetric
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             32,64,128,
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             0-255
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
           <p>
             0-2048
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             it uses 4bit register vs 2 and makes it faster
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Twofish
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Secrecy
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             block cipher symmetric
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             128
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             16
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
           <p>
             256
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Blowfish
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Secrecy
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             block cipher symmetric
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             64
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             16
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
           <p>
-            448
+            32-448
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Schneier
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             RSA
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Secrecy &amp; Signature
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            Asymmetric
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            <b>Asymmetric</b>
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
           <p>
             768,1027
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             based on difficulty of factoring large numbers
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             ECC
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            Asymmetric
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            <b>Asymmetric</b>
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
           <p>
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             DSA
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Signature
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            Asymmetric
-          </p>
-        </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            <b>Asymmetric</b>
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
           <p>
             512-1024
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Diffie Hellman
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             Key Exchange
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            Asummetric
-          </p>
-        </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            <b>Asymmetric</b>
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
           <p>
             768,1024
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            El-gamal
-          </p>
-        </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            Secrecy &amp; Signature
-          </p>
-        </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            Asymmetric
-          </p>
-        </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            
-          </p>
-        </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            
-          </p>
-        </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p>
-            768,1024
-          </p>
-        </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             discrete logarithms
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            SHA-1
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            El-gamal
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            Integrity
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            Secrecy &amp; Signature
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            One-Way
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            512
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            <b>Asymmetric</b>
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p>
-            160 bit digest
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p>
+            768,1024
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            discrete logarithms
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            LUC
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p>
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
           </p>
         </td>
       </tr>
       <tr>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            MD5
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            Knapsack
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            Integrity
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            X
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p>
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            SHA-1
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            y
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             One-Way
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             512
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
-            4
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
           <p>
             160 bit digest
           </p>
         </td>
-        <td style="border-top-width: 1; border-bottom-width: 1; width: 14%; border-right-width: 1; border-left-width: 1; border-style: solid" valign="top">
-          <p style="margin-bottom: 1; margin-left: 1; margin-right: 1; margin-top: 1">
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            used by DSA
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            MD5
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            Integrity
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
             
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            One-Way
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            512
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p style="margin-left: 1; margin-top: 1; margin-bottom: 1; margin-right: 1">
+            4
+          </p>
+        </td>
+        <td valign="top" style="border-left-width: 1; border-bottom-width: 1; border-style: solid; width: 14%; border-right-width: 1; border-top-width: 1">
+          <p>
+            160 bit digest
           </p>
         </td>
       </tr>
@@ -729,6 +1207,8 @@
 </html>
 </richcontent>
 <arrowlink DESTINATION="ID_813721203" STARTINCLINATION="0;0;" ENDINCLINATION="0;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
 </node>
 </node>
 </node>
