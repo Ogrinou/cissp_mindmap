@@ -1211,5 +1211,54 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 </node>
 </node>
+<node TEXT="Internet Security" POSITION="right" ID="ID_1882283088" CREATED="1318946665866" MODIFIED="1318946683967" COLOR="#0033ff" HGAP="40" VSHIFT="-648">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<node TEXT="HTTPS:SSL" ID="ID_457293421" CREATED="1318946402308" MODIFIED="1318946686673" COLOR="#00b439" HGAP="44" VSHIFT="35">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="Client asks server certificate" ID="ID_907092244" CREATED="1318946414527" MODIFIED="1318946675550" COLOR="#990000">
+<font SIZE="14"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="Client crypts session key with public server certificate" ID="ID_564051176" CREATED="1318946430843" MODIFIED="1318946675550" COLOR="#990000">
+<font SIZE="14"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="Server decrypts the session key with his private key" ID="ID_1157519665" CREATED="1318946474647" MODIFIED="1318946675550" COLOR="#990000">
+<font SIZE="14"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="The session key is used to encrypt" ID="ID_336279592" CREATED="1318946490901" MODIFIED="1318946675566" COLOR="#990000">
+<font SIZE="14"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+</node>
+<node TEXT="SHTTP" ID="ID_722492404" CREATED="1318946902328" MODIFIED="1318946904315" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="only the page data is encrypted" ID="ID_1261813236" CREATED="1318946905488" MODIFIED="1318946915986" COLOR="#990000">
+<font SIZE="14"/>
+</node>
+</node>
+<node TEXT="Secure Electronic Transaction (SET)" ID="ID_876483201" CREATED="1318946945757" MODIFIED="1318946964358" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="SSH" ID="ID_38563426" CREATED="1318947284876" MODIFIED="1318947286393" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="IPSec" ID="ID_1867419315" CREATED="1318947286706" MODIFIED="1318947315101" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="Authentication Header : AH" ID="ID_708815423" CREATED="1318947336236" MODIFIED="1318947342759" COLOR="#990000">
+<font SIZE="14"/>
+</node>
+<node TEXT="Encapsulating Security Payload : ESP" ID="ID_1517884634" CREATED="1318947342994" MODIFIED="1318947363363" COLOR="#990000">
+<font SIZE="14"/>
+</node>
+</node>
+</node>
 </node>
 </map>
