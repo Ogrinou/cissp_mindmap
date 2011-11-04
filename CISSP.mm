@@ -9,7 +9,9 @@
 <node TEXT="Business Continuity and Disaster Recovery Planning" POSITION="right" ID="ID_1403236552" CREATED="1315477493329" MODIFIED="1317721690656" LINK="BusinessContinuityPlan.mm">
 <icon BUILTIN="100%"/>
 </node>
-<node TEXT="Cryptography" POSITION="right" ID="ID_1057427586" CREATED="1315477511987" MODIFIED="1318855327875" LINK="Cryptography.mm"/>
+<node TEXT="Cryptography" POSITION="right" ID="ID_1057427586" CREATED="1315477511987" MODIFIED="1320415912961" LINK="Cryptography.mm">
+<icon BUILTIN="100%"/>
+</node>
 <node TEXT="Information Security Governance and Risk Management" POSITION="right" ID="ID_1978636974" CREATED="1315477522607" MODIFIED="1317721698672" LINK="InformationSecurity_RiskManagement.mm">
 <icon BUILTIN="100%"/>
 </node>
